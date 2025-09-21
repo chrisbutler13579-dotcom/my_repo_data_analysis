@@ -1,0 +1,33 @@
+Here are the useful git commands:
+
+git add file.py= put in the staging area
+clear = clear shell
+git commit file.py= take from staging area to local repo
+git commit file.py -m "my message" = add with a message
+git branch  = see branches 
+git --version = see git version
+git log = see commit history
+git show commit_name = show me the commit 
+git branch new_branch = create new_branch
+git checkout new_branch = go to new  branch
+git branch -d new_branch = delete new_branch
+
+I have created a GitHub account with my gmail
+
+git branch -M main = force rename current branch to main
+git remote add origin https://github.com/chrisbu...
+...tler13579-dotcom/my_repo_data_analysis.git = link local repo to a remote repo on GitHub
+git push -u origin main = pushes local branch to the remote origin, so can now be viewed on GitHub.com
+git diff main..new_branch = show me the differences between a branch called main and the new_branch
+
+Way to make a change to keep the timeline the same is via rebase. So this will add the changes from new_branch on top of main
+git checkout new_branch
+git rebase main
+git checkout main
+git merge new_branch
+
+
+rm file.py = delete file.py
+
+
+
